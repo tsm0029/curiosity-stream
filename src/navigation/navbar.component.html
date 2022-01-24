@@ -1,3 +1,15 @@
+<style type="text/css">
+  .nav-item.dropdown.show a {
+      color: white !important;
+  }
+
+  #navbarDropdown {
+      color: white;
+  }
+  .nav-item.nav-link.show a{
+  color: white !important;
+  }
+</style>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
       <a class="navbar-brand" href="#">
@@ -48,15 +60,20 @@
           </li>
         </ul>
         <a class="navbar-brand" href="#">
-          
             <img src ="assets/ynow.png" alt="" width="60" height = "30" class="d-inline-block align-text-top">
-                    
        </a>     
-        <form class="d-flex">
+      
             <li class="nav-item">
                 <a class="nav-link" href="#">40% OFF GIFT CARDS | BUY NOW></a>
               </li>
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              
+            <div class="col"></div> 
+            <form id="form"> 
+              <input type="search" id="query" name="q" placeholder="Search">
+              
+            </form>
+            
+     
     
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -67,9 +84,9 @@
               <li><a class="dropdown-item" href="#">HELP</a></li>
               <li><a class="dropdown-item" href="#">SIGN OUT</a></li>
             </ul>
-          </li>
         
-        </form>
+        
+        </li>
       </div>
     </div>
   </nav>
