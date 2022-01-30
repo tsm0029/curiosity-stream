@@ -1,0 +1,15 @@
+
+    footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: black;
+      max-height:fit-content;
+   
+      text-align: top;
+    }
+    .text{
+      color: white;
+
+    }
