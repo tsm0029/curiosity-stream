@@ -6,16 +6,17 @@ import { AppComponent } from './app.component';
 import { headerComponent } from './header/header.component';
 import { footerComponent } from './footer/footer.component';
 import { carouselComponent } from './carousel/carousel.component';
+import { videocardComponent } from './videocard/videocard.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     headerComponent,
     footerComponent,
-    carouselComponent
-
-
+    carouselComponent,
+    videocardComponent
   ],
+
   imports: [
     BrowserModule
   ],
