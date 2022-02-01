@@ -12,3 +12,9 @@
 .card-text{
     color:white;
 }
+.row{
+    position: -ms-page;
+}
+.img{
+    display: inline-block;
+}

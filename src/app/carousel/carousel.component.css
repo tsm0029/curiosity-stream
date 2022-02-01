@@ -1,0 +1,12 @@
+.card{
+    display: inline-block;
+    width: 18rem;
+    height: 18rem;
+    padding-top: 0px;
+    background-image: "assets/rick.png";
+    background-size: cover;
+    color: white;
+    border-color: black;
+    background-color: black;
+    align-items: baseline;
+}
