@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, Input } from "@angular/core";
 
 @Component({
     selector: 'cs-carousel',
@@ -8,7 +8,18 @@ import { Component } from "@angular/core";
 
 
 export class carouselComponent{
-    
+    @Input() name:string;
+    @Input() img:string;
+    @Input() about:string;
+    @Input() time:number;
+    @Input() rating:number;
+    constructor(){
+        this.name="";
+        this.img="";
+        this.about="stuff";
+        this.time=0;
+        this.rating=0;
+    }
 
 
 }
