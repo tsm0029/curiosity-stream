@@ -9,12 +9,4 @@ import { mock_list_item } from './mock_list_item';
 })
 export class AppComponent {
   title = 'curiosity-stream';
-  shows: MockItemModel []=[];
-  constructor(){
-    for(var show of mock_list_item){
-      console.log(show);
-      this.shows.push(show);
-
-    }
-  }
 }

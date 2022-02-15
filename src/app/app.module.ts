@@ -7,18 +7,29 @@ import { headerComponent } from './header/header.component';
 import { footerComponent } from './footer/footer.component';
 import { carouselComponent } from './carousel/carousel.component';
 import { videocardComponent } from './videocard/videocard.component';
-
+import { AppRoutingModule } from './app-routing.module';
+import {CollectionsComponent} from './collections-layout.component'
+import { homeLayoutComponent } from './home-layout.component';
+import { KeepWatchingLayoutComponent } from './keepWatching-layout.component';
+import { WatchListLayoutComponent } from './watchlist-layout.component';
+import { WatchHistoryLayoutComponent } from './watchhistory-layout.component';
 @NgModule({
   declarations: [
     AppComponent,
     headerComponent,
     footerComponent,
     carouselComponent,
-    videocardComponent
+    videocardComponent,
+    CollectionsComponent,
+    homeLayoutComponent,
+    KeepWatchingLayoutComponent,
+    WatchListLayoutComponent,
+    WatchHistoryLayoutComponent
   ],
 
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
