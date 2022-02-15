@@ -1,0 +1,12 @@
+Travis Mueller
+Main features:
+Create layout components named “name-layout” using Bootstrap flex-row and flex-col and add routing for 5 components
+Added the following attributes to the class “name-layout.component”:
+-home
+-collections
+my stuff:
+-keep watching
+-watchlist
+-watch History
+Bonus Features:
+
