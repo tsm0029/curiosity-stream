@@ -1,1 +1,12 @@
-stuff
+Collections
+<div class="container-fluid d-flex">
+    <div class = "d-flex justify-content-center">
+    <div  *ngFor="let show of shows">
+        <cs-carousel class="mx-2" img={{show.img}}
+         name={{show.name}} 
+         about={{show.about}} 
+         [time]='show.time' 
+         [rating]='show.rating'>Loading ... </cs-carousel>
+    </div>
+</div>
+</div>
