@@ -1,12 +1,52 @@
-WatchList
-<div class="container-fluid d-flex">
-    <div class = "d-flex col-2">
-    <div  *ngFor="let show of shows">
-        <cs-carousel class="mx-2" img={{show.img}}
-         name={{show.name}} 
-         about={{show.about}} 
-         [time]='show.time' 
-         [rating]='show.rating'>Loading ... </cs-carousel>
+
+<div class="card" >
+    <div class="card-body">
+      <h1 class="card-title">Watchlist</h1>
+      
+      <p class="card-text">Keep track of programs you want to watch later.</p>
+      <div class="row">
+      <div class="col">
     </div>
-</div>
-</div>
+     <div class="col">
+    </div> 
+    <div class="col">
+   
+      <a href="#" class="card-link">EDIT WATCHLIST</a>
+    </div>
+    </div>
+  </div>
+  <hr class = "text">
+<div class="container">
+   
+    <div class="row">
+        <div class="col"><img src="assets/z1.png" alt="..." class="img-thumbnail"></div>
+      </div>
+      <hr class = "text">
+      <div class="row">
+        <div class="col"><img src="assets/z1.png" alt="..." class="img-thumbnail"></div>
+      </div>
+      <hr class = "text">
+      <div class="row">
+        <div class="col"><img src="assets/z1.png" alt="..." class="img-thumbnail"></div>
+      </div>
+      <hr class = "text">
+      <div class="row">
+        <div class="col"><img src="assets/z1.png" alt="..." class="img-thumbnail"></div>
+      </div>
+      <hr class = "text">
+      <div class="row">
+        <div class="col"><img src="assets/z1.png" alt="..." class="img-thumbnail"></div>
+      </div>
+      <hr class = "text">
+      </div>
+      <div class="container-fluid d-flex">
+        <div class = "d-flex justify-content-center">
+        <div  *ngFor="let show of shows">
+            <cs-carousel class="mx-2" img={{show.img}}
+             name={{show.name}} 
+             about={{show.about}} 
+             [time]='show.time' 
+             [rating]='show.rating'>Loading ... </cs-carousel>
+        </div>
+    </div>
+
