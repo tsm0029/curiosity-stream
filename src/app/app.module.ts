@@ -13,6 +13,8 @@ import { homeLayoutComponent } from './home-layout.component';
 import { KeepWatchingLayoutComponent } from './keepWatching-layout.component';
 import { WatchListLayoutComponent } from './watchlist-layout.component';
 import { WatchHistoryLayoutComponent } from './watchhistory-layout.component';
+import { HttpClientModule } from '@angular/common/http';
+import { UserInfoComponent } from './header/user-info.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,12 +26,14 @@ import { WatchHistoryLayoutComponent } from './watchhistory-layout.component';
     homeLayoutComponent,
     KeepWatchingLayoutComponent,
     WatchListLayoutComponent,
-    WatchHistoryLayoutComponent
+    WatchHistoryLayoutComponent,
+    UserInfoComponent
   ],
 
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

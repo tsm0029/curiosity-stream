@@ -1,0 +1,12 @@
+Main features:
+ Created a backend via Firebase. Create a Realtime database and populate it with basic info.
+Use Angular’s HTTP Client to obtain the data from the backend.
+Create a new component and use it to display the data obtained from the backend.
+
+Added the following attributes to the class “user-info.component.ts”:
+GitHub
+FirstName
+LastName
+mix_id
+Bonus Features:
+none
