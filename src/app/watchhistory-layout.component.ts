@@ -1,6 +1,7 @@
-import { Component } from "@angular/core";
+import { Component, OnInit } from "@angular/core";
+import { ItemsService } from "./items.service";
 import { MockItemModel } from "./mock-item.model";
-import { mock_list_item } from "./mock_list_item";
+
 
 
 @Component({
@@ -8,15 +9,22 @@ import { mock_list_item } from "./mock_list_item";
     templateUrl: 'watchhistory-layout.component.html',
     styleUrls: ['watchhistory-layout.component.css']
 })
-export class WatchHistoryLayoutComponent{
+export class WatchHistoryLayoutComponent implements OnInit{
     shows: MockItemModel []=[];
-    constructor(){
-      for(var show of mock_list_item){
-        console.log(show);
-        this.shows.push(show);
-  
-      }
+
+    constructor(private itemService:ItemsService){
     }
+  ngOnInit(): void {
+    this.itemService.getItems().subscribe((data: MockItemModel []) => {
+      console.log("fetching data");
+      console.log(data);
+      for(var item of data){
+        console.log(item);
+        this.shows.push(item);
+      }
+    });
+    
+  }
   
 
 }

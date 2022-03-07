@@ -1,9 +1,9 @@
 Main features:
- Created a backend via Firebase. Create a Realtime database and populate it with basic info.
-Use Angular’s HTTP Client to obtain the data from the backend.
-Create a new component and use it to display the data obtained from the backend.
+ moved the content of my mock data to the realtime database 
+ created a service component to talk to back end and get the data
+ used that component to display for programmatic components
 
-Added the following attributes to the class “user-info.component.ts”:
+Added the following attributes to the class “watchhistory-layout.component”:
 GitHub
 FirstName
 LastName

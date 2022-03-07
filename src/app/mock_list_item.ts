@@ -11,7 +11,7 @@ export const mock_list_item=[
         name:"Evolve",
         rating:97,
         time:1.32,
-         about:"patrick investigates lifes ways to thrive on the planet"
+        about:"patrick investigates lifes ways to thrive on the planet"
 
     },
     {
