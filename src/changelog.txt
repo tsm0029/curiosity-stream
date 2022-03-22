@@ -1,12 +1,11 @@
 Travis Mueller
 Main features:
-Create layout components named “name-layout” using Bootstrap flex-row and flex-col and add routing for 5 components
-Added the following attributes to the class “name-layout.component”:
--home
--collections
+Configure Angular Fire library.
+Modify the service from the last lab by removing HTTpClient dependency and injecting AngularFireDatabase as dependency.
+Implement the method used for fetching your data by using the angular fire dependency from Goal 2 instead of the HTTPClient.
+Deploy your Web Application and submit your URL.:
+
 my stuff:
--keep watching
--watchlist
--watch History
+https://curiosity-stream-b4f86.web.app/
 Bonus Features:
 

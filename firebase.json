@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/curiosity-stream",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

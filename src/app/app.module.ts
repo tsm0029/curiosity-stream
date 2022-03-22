@@ -1,7 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
-
 import { AppComponent } from './app.component';
 import { headerComponent } from './header/header.component';
 import { footerComponent } from './footer/footer.component';
@@ -15,6 +13,7 @@ import { WatchListLayoutComponent } from './watchlist-layout.component';
 import { WatchHistoryLayoutComponent } from './watchhistory-layout.component';
 import { HttpClientModule } from '@angular/common/http';
 import { UserInfoComponent } from './header/user-info.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -38,4 +37,6 @@ import { UserInfoComponent } from './header/user-info.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+
+}
