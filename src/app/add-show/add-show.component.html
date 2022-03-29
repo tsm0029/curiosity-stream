@@ -1,0 +1,34 @@
+<div class = "container">
+    <div class = "row">
+        <div class = "col-8">
+            <form #postForm="ngForm"(ngSubmit)="addShow(postForm.value)">
+                <div class = "input-group">
+                    <span class="input-group-text">Image path
+                    </span>
+                        <input type="text" class="form-control" ngModel name="img">
+                </div>
+                <div class = "input-group">
+                    <span class="input-group-text">Name
+                    </span>
+                        <input type="text" class="form-control" ngModel name="name">
+                </div>
+                <div class = "input-group">
+                    <span class="input-group-text">About
+                    </span>
+                        <input type="text" class="form-control" ngModel name="about">
+                </div>
+                <div class = "input-group">
+                    <span class="input-group-text">Time
+                    </span>
+                        <input type="text" class="form-control"  ngModel name="time">
+                </div>
+                <div class = "input-group">
+                    <span class="input-group-text">Rating
+                    </span>
+                        <input type="text" class="form-control"  ngModel name="rating">
+                </div>
+                <button class="btn btn-dark"type="submit">Add Show</button>
+            </form>
+        </div>
+    </div>
+</div>

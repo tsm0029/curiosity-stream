@@ -13,6 +13,9 @@ import { WatchListLayoutComponent } from './watchlist-layout.component';
 import { WatchHistoryLayoutComponent } from './watchhistory-layout.component';
 import { HttpClientModule } from '@angular/common/http';
 import { UserInfoComponent } from './header/user-info.component';
+import { AddShowComponent } from './add-show/add-show.component';
+import { FormsModule } from '@angular/forms';
+// import {AngularFireModule} from '@angular/fire/compat';
 
 @NgModule({
   declarations: [
@@ -26,13 +29,15 @@ import { UserInfoComponent } from './header/user-info.component';
     KeepWatchingLayoutComponent,
     WatchListLayoutComponent,
     WatchHistoryLayoutComponent,
-    UserInfoComponent
+    UserInfoComponent,
+    AddShowComponent
   ],
 
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

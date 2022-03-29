@@ -14,11 +14,15 @@ export class ItemsService{
     constructor(private http:HttpClient){
 
     }
-
+  
     getItems(){
         return this.http.get<MockItemModel []>(this.baseUrl+this.itemsEndPoint);
     }
     getItem(index:number){
         return this.http.get<MockItemModel>(this.baseUrl + 'items' + '/' + index + '.json');
+    }
+    addShow(show:MockItemModel){
+        // this.db.list<MockItemModel>("show").push(show);
+
     }
 }

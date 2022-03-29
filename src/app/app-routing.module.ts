@@ -6,9 +6,11 @@ import { homeLayoutComponent } from './home-layout.component';
 import { KeepWatchingLayoutComponent } from './keepWatching-layout.component';
 import { WatchListLayoutComponent } from './watchlist-layout.component';
 import { WatchHistoryLayoutComponent } from './watchhistory-layout.component';
+import { AddShowComponent } from './add-show/add-show.component';
 
 const routes:Routes = [
   {path:'', component:homeLayoutComponent},
+  {path:'admin',component: AddShowComponent},
   {path: 'collections-layout', component: CollectionsComponent},
   {path: 'home', component:homeLayoutComponent},
   {path: 'keepWatching', component:KeepWatchingLayoutComponent},
