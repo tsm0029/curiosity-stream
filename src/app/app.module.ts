@@ -15,6 +15,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { UserInfoComponent } from './header/user-info.component';
 import { AddShowComponent } from './add-show/add-show.component';
 import { FormsModule } from '@angular/forms';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 // import {AngularFireModule} from '@angular/fire/compat';
 
 @NgModule({
@@ -30,7 +31,8 @@ import { FormsModule } from '@angular/forms';
     WatchListLayoutComponent,
     WatchHistoryLayoutComponent,
     UserInfoComponent,
-    AddShowComponent
+    AddShowComponent,
+    AuthenticationComponent
   ],
 
   imports: [

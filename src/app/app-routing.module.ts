@@ -7,6 +7,7 @@ import { KeepWatchingLayoutComponent } from './keepWatching-layout.component';
 import { WatchListLayoutComponent } from './watchlist-layout.component';
 import { WatchHistoryLayoutComponent } from './watchhistory-layout.component';
 import { AddShowComponent } from './add-show/add-show.component';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 const routes:Routes = [
   {path:'', component:homeLayoutComponent},
@@ -15,7 +16,8 @@ const routes:Routes = [
   {path: 'home', component:homeLayoutComponent},
   {path: 'keepWatching', component:KeepWatchingLayoutComponent},
   {path: 'watchlist', component:WatchListLayoutComponent},
-  {path: 'watchhistory', component: WatchHistoryLayoutComponent}
+  {path: 'watchhistory', component: WatchHistoryLayoutComponent},
+  {path: 'auth', component: AuthenticationComponent}
 ];
 @NgModule({
   declarations: [],

@@ -1,11 +1,8 @@
 Travis Mueller
-Main features:
-Configure Angular Fire library.
-Modify the service from the last lab by removing HTTpClient dependency and injecting AngularFireDatabase as dependency.
-Implement the method used for fetching your data by using the angular fire dependency from Goal 2 instead of the HTTPClient.
-Deploy your Web Application and submit your URL.:
+Main features:enabled firebase authentication. created the auth component. created the auth service. Connected 
+the auth component to the auth service and display error message:
+my stuff: 
 
-my stuff:
-https://curiosity-stream-b4f86.web.app/
 Bonus Features:
-
+the auth service is not working due to me having not fully completed lab 9 and am planning on fixing it before 
+this is graded and I know I did all of lab 10 correctly otherwise 
